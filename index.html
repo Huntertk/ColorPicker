@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+
+    <!-- GoogleFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="container">
+            <input class="color-input" type="color" name="color" id="color">
+            <select class="color-select" name="color-select" id="select-color">
+                <option class="opt" value="monochrome">Monochrome</option>
+                <option class="opt" value="monochrome-dark">Monochrome-Dark</option>
+                <option class="opt" value="monochrome-light">Monochrome-Light</option>
+                <option class="opt" value="analogic">Analogic</option>
+                <option class="opt" value="complement">Complement</option>
+                <option class="opt" value="complement">Complement</option>
+                <option class="opt" value="analogic-complement">Analogic-Complement</option>
+                <option class="opt" value="Triad">Triad</option>
+            </select>
+            <button class="btn" id="btn">Get Color Scheme</button>
+        </div>
+            
+            <div id="render-color-div" class="render-color-div">
+                <h1 style="text-align: center;">Please Select Generate Color</h1>
+            </div>
+        </div>
+    <script src="/index.js"></script>
+</body>
+</html>
